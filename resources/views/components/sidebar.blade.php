@@ -16,7 +16,7 @@
                     </p>
                 </a>
             </li>
-            <li class="nav-item">
+            {{-- <li class="nav-item">
                 <a href="{{ route('admin.role.index') }}"
                     class="nav-link {{ Route::is('admin.role.index') ? 'active' : '' }}">
                     <i class="nav-icon fas fa-user-tag"></i>
@@ -69,7 +69,7 @@
                         <span class="badge badge-warning right">{{ $ProductCount }}</span>
                     </p>
                 </a>
-            </li>
+            </li> --}}
         @endrole
         <li class="nav-item">
             <a href="{{ route('admin.profile.edit') }}"
